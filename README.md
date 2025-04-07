@@ -49,7 +49,14 @@ The **Carpem Parser Service** is a Spring Boot application designed to process, 
 
 ---
 
-## 🚀 Getting Started
+🔌 API Endpoints
+
+| Method               | Endpoint                           |
+|----------------------|------------------------------------|
+| POST/upload/hl7      | Upload and parse HL7 files         |
+| POST/upload/excel    | Upload and parse Excel files       |
+| GET	/files/status    | Check parsing status/results       |
+| GET	/swagger-ui.html | Access Swagger UI                  |
 
 ### Prerequisites
 
