@@ -1,4 +1,4 @@
-package com.carpem.Parser;
+package com.carpem.parser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
