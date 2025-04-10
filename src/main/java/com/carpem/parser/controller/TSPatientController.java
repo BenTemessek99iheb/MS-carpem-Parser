@@ -49,7 +49,7 @@ public class TSPatientController {
             String hl7Raw = new String(file.getBytes(), StandardCharsets.UTF_8);
             log.info("Received HL7 file: {}", file.getOriginalFilename());
 
-            patientImportService.processHl7Message(hl7Raw);
+            patientImportService.processHl7Message(hl7Raw, file.getOriginalFilename());
 
             return ResponseEntity.ok("HL7 message processed successfully.");
         } catch (IOException e) {
