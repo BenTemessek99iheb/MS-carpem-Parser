@@ -1,8 +1,9 @@
 package com.carpem.parser.model;
 
-import lombok.*;
+import lombok.Data;
 
 import java.util.Date;
+
 @Data
 public class TSPatientDTO {
     private Long idGlobal;

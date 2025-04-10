@@ -17,5 +17,4 @@ public interface ITSPatientRepo extends JpaRepository<TSPatient, Long> {
     boolean existsByIdGlobal(Long idGlobal);
 
 
-
 }

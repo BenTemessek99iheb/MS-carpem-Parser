@@ -9,6 +9,7 @@ import org.mapstruct.Mapper;
 
 public interface TSPatientMapper extends GenericMapper<TSPatient, TSPatientDTO> {
     TSPatientDTO toDto(TSPatient patient);
+
     TSPatient toModel(TSPatientDTO patientDto);
 
 }
